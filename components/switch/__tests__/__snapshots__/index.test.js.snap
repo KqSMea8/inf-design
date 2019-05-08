@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should has click wave effect 1`] = `
+<button
+  infini-click-animating="true"
+  aria-checked="false"
+  class="infini-switch"
+  role="switch"
+  type="button"
+>
+  <span
+    class="infini-switch-inner"
+  />
+  <div
+    class="infini-click-animating-node"
+    style="border-color: buttonface;"
+  />
+</button>
+`;

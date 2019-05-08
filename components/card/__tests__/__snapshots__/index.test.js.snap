@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should still have padding when card which set padding to 0 is loading 1`] = `
+<div
+  class="infini-card infini-card-loading infini-card-bordered"
+>
+  <div
+    class="infini-card-body"
+    style="padding: 0px;"
+  >
+    <div
+      class="infini-card-loading-content"
+      style="padding: 24px;"
+    >
+      <div
+        class="infini-row"
+        style="margin-left: -4px; margin-right: -4px;"
+      >
+        <div
+          class="infini-col infini-col-22"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+      </div>
+      <div
+        class="infini-row"
+        style="margin-left: -4px; margin-right: -4px;"
+      >
+        <div
+          class="infini-col infini-col-8"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+        <div
+          class="infini-col infini-col-15"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+      </div>
+      <div
+        class="infini-row"
+        style="margin-left: -4px; margin-right: -4px;"
+      >
+        <div
+          class="infini-col infini-col-6"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+        <div
+          class="infini-col infini-col-18"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+      </div>
+      <div
+        class="infini-row"
+        style="margin-left: -4px; margin-right: -4px;"
+      >
+        <div
+          class="infini-col infini-col-13"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+        <div
+          class="infini-col infini-col-9"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+      </div>
+      <div
+        class="infini-row"
+        style="margin-left: -4px; margin-right: -4px;"
+      >
+        <div
+          class="infini-col infini-col-4"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+        <div
+          class="infini-col infini-col-3"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+        <div
+          class="infini-col infini-col-16"
+          style="padding-left: 4px; padding-right: 4px;"
+        >
+          <div
+            class="infini-card-loading-block"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card title should be vertically aligned 1`] = `
+<div
+  class="infini-card infini-card-bordered"
+  style="width: 300px;"
+>
+  <div
+    class="infini-card-head"
+  >
+    <div
+      class="infini-card-head-wrapper"
+    >
+      <div
+        class="infini-card-head-title"
+      >
+        Card title
+      </div>
+      <div
+        class="infini-card-extra"
+      >
+        <button
+          class="infini-btn"
+          type="button"
+        >
+          <span>
+            Button
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="infini-card-body"
+  >
+    <p>
+      Card content
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader pageHeader should support className 1`] = `
+<div
+  class="infini-page-header not-works"
+>
+  <div
+    class="infini-page-header-title-view"
+  >
+    <span
+      class="infini-page-header-title-view-title"
+    >
+      Page Title
+    </span>
+  </div>
+</div>
+`;

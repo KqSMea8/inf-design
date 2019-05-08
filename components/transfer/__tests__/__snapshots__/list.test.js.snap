@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+<div
+  class="infini-transfer-list"
+>
+  <div
+    class="infini-transfer-list-header"
+  >
+    <label
+      class="infini-checkbox-wrapper"
+    >
+      <span
+        class="infini-checkbox infini-checkbox-indeterminate"
+      >
+        <input
+          class="infini-checkbox-input"
+          type="checkbox"
+        />
+        <span
+          class="infini-checkbox-inner"
+        />
+      </span>
+    </label>
+    <span
+      class="infini-transfer-list-header-selected"
+    >
+      <span>
+        1/3 
+      </span>
+      <span
+        class="infini-transfer-list-header-title"
+      />
+    </span>
+  </div>
+  <div
+    class="infini-transfer-list-body"
+  >
+    <ul
+      class="infini-transfer-list-content"
+    >
+      <li
+        class="infini-transfer-list-content-item"
+      >
+        <label
+          class="infini-checkbox-wrapper infini-checkbox-wrapper-checked"
+        >
+          <span
+            class="infini-checkbox infini-checkbox-checked"
+          >
+            <input
+              checked=""
+              class="infini-checkbox-input"
+              type="checkbox"
+            />
+            <span
+              class="infini-checkbox-inner"
+            />
+          </span>
+        </label>
+        <span />
+      </li>
+      <li
+        class="infini-transfer-list-content-item"
+      >
+        <label
+          class="infini-checkbox-wrapper"
+        >
+          <span
+            class="infini-checkbox"
+          >
+            <input
+              class="infini-checkbox-input"
+              type="checkbox"
+            />
+            <span
+              class="infini-checkbox-inner"
+            />
+          </span>
+        </label>
+        <span />
+      </li>
+      <li
+        class="infini-transfer-list-content-item infini-transfer-list-content-item-disabled"
+      >
+        <label
+          class="infini-checkbox-wrapper infini-checkbox-wrapper-disabled"
+        >
+          <span
+            class="infini-checkbox infini-checkbox-disabled"
+          >
+            <input
+              class="infini-checkbox-input"
+              disabled=""
+              type="checkbox"
+            />
+            <span
+              class="infini-checkbox-inner"
+            />
+          </span>
+        </label>
+        <span />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

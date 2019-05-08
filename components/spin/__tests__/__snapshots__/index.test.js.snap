@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spin should render custom indicator when it's set 1`] = `
+<div
+  class="infini-spin infini-spin-spinning"
+>
+  <div
+    class="custom-indicator infini-spin-dot"
+  />
+</div>
+`;

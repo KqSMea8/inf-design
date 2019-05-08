@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ./components/grid/demo/basic.md correctly 1`] = `
+<div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-12"
+    >
+      col-12
+    </div>
+    <div
+      class="infini-col infini-col-12"
+    >
+      col-12
+    </div>
+  </div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-8"
+    >
+      col-8
+    </div>
+    <div
+      class="infini-col infini-col-8"
+    >
+      col-8
+    </div>
+    <div
+      class="infini-col infini-col-8"
+    >
+      col-8
+    </div>
+  </div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-6"
+    >
+      col-6
+    </div>
+    <div
+      class="infini-col infini-col-6"
+    >
+      col-6
+    </div>
+    <div
+      class="infini-col infini-col-6"
+    >
+      col-6
+    </div>
+    <div
+      class="infini-col infini-col-6"
+    >
+      col-6
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/flex.md correctly 1`] = `
+<div>
+  <p>
+    sub-element align left
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-start"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+  </div>
+  <p>
+    sub-element align center
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-center"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+  </div>
+  <p>
+    sub-element align right
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-end"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+  </div>
+  <p>
+    sub-element monospaced arrangement
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-space-between"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+  </div>
+  <p>
+    sub-element align full
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-space-around"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      col-4
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/flex-align.md correctly 1`] = `
+<div>
+  <p>
+    Align Top
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-center infini-row-flex-top"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-100"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-50"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-120"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-80"
+      >
+        col-4
+      </p>
+    </div>
+  </div>
+  <p>
+    Align Center
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-space-around infini-row-flex-middle"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-100"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-50"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-120"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-80"
+      >
+        col-4
+      </p>
+    </div>
+  </div>
+  <p>
+    Align Bottom
+  </p>
+  <div
+    class="infini-row-flex infini-row-flex-space-between infini-row-flex-bottom"
+  >
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-100"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-50"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-120"
+      >
+        col-4
+      </p>
+    </div>
+    <div
+      class="infini-col infini-col-4"
+    >
+      <p
+        class="height-80"
+      >
+        col-4
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/flex-order.md correctly 1`] = `
+<div>
+  <div
+    class="infini-row-flex"
+  >
+    <div
+      class="infini-col infini-col-6 infini-col-order-4"
+    >
+      1 col-order-4
+    </div>
+    <div
+      class="infini-col infini-col-6 infini-col-order-3"
+    >
+      2 col-order-3
+    </div>
+    <div
+      class="infini-col infini-col-6 infini-col-order-2"
+    >
+      3 col-order-2
+    </div>
+    <div
+      class="infini-col infini-col-6 infini-col-order-1"
+    >
+      4 col-order-1
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/gutter.md correctly 1`] = `
+<div
+  class="gutter-example"
+>
+  <div
+    class="infini-row"
+    style="margin-left:-8px;margin-right:-8px"
+  >
+    <div
+      class="infini-col infini-col-6 gutter-row"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="gutter-box"
+      >
+        col-6
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6 gutter-row"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="gutter-box"
+      >
+        col-6
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6 gutter-row"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="gutter-box"
+      >
+        col-6
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6 gutter-row"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div
+        class="gutter-box"
+      >
+        col-6
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/offset.md correctly 1`] = `
+<div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-8"
+    >
+      col-8
+    </div>
+    <div
+      class="infini-col infini-col-8 infini-col-offset-8"
+    >
+      col-8
+    </div>
+  </div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-6 infini-col-offset-6"
+    >
+      col-6 col-offset-6
+    </div>
+    <div
+      class="infini-col infini-col-6 infini-col-offset-6"
+    >
+      col-6 col-offset-6
+    </div>
+  </div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-12 infini-col-offset-6"
+    >
+      col-12 col-offset-6
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/playground.md correctly 1`] = `
+<div>
+  <div
+    style="margin-bottom:16px"
+  >
+    <span
+      style="margin-right:6px"
+    >
+      Gutter (px): 
+    </span>
+    <div
+      style="width:50%"
+    >
+      <div
+        class="infini-slider infini-slider-with-marks"
+      >
+        <div
+          class="infini-slider-rail"
+        />
+        <div
+          class="infini-slider-track"
+          style="left:0%;width:20%"
+        />
+        <div
+          class="infini-slider-step"
+        >
+          <span
+            class="infini-slider-dot infini-slider-dot-active"
+            style="left:0%"
+          />
+          <span
+            class="infini-slider-dot infini-slider-dot-active"
+            style="left:20%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:40%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:60%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:80%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:100%"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          aria-valuemax="5"
+          aria-valuemin="0"
+          aria-valuenow="1"
+          class="infini-slider-handle"
+          role="slider"
+          style="left:20%"
+          tabindex="0"
+        />
+        <div
+          class="infini-slider-mark"
+        >
+          <span
+            class="infini-slider-mark-text infini-slider-mark-text-active"
+            style="left:0%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            8
+          </span>
+          <span
+            class="infini-slider-mark-text infini-slider-mark-text-active"
+            style="left:20%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            16
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:40%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            24
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:60%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            32
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:80%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            40
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:100%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            48
+          </span>
+        </div>
+      </div>
+    </div>
+    <span
+      style="margin-right:6px"
+    >
+      Column Count:
+    </span>
+    <div
+      style="width:50%"
+    >
+      <div
+        class="infini-slider infini-slider-with-marks"
+      >
+        <div
+          class="infini-slider-rail"
+        />
+        <div
+          class="infini-slider-track"
+          style="left:0%;width:40%"
+        />
+        <div
+          class="infini-slider-step"
+        >
+          <span
+            class="infini-slider-dot infini-slider-dot-active"
+            style="left:0%"
+          />
+          <span
+            class="infini-slider-dot infini-slider-dot-active"
+            style="left:20%"
+          />
+          <span
+            class="infini-slider-dot infini-slider-dot-active"
+            style="left:40%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:60%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:80%"
+          />
+          <span
+            class="infini-slider-dot"
+            style="left:100%"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          aria-valuemax="5"
+          aria-valuemin="0"
+          aria-valuenow="2"
+          class="infini-slider-handle"
+          role="slider"
+          style="left:40%"
+          tabindex="0"
+        />
+        <div
+          class="infini-slider-mark"
+        >
+          <span
+            class="infini-slider-mark-text infini-slider-mark-text-active"
+            style="left:0%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            2
+          </span>
+          <span
+            class="infini-slider-mark-text infini-slider-mark-text-active"
+            style="left:20%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            3
+          </span>
+          <span
+            class="infini-slider-mark-text infini-slider-mark-text-active"
+            style="left:40%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            4
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:60%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            6
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:80%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            8
+          </span>
+          <span
+            class="infini-slider-mark-text"
+            style="left:100%;transform:translateX(-50%);-ms-transform:translateX(-50%)"
+          >
+            12
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="infini-row"
+    style="margin-left:-8px;margin-right:-8px"
+  >
+    <div
+      class="infini-col infini-col-6"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div>
+        Column
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div>
+        Column
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div>
+        Column
+      </div>
+    </div>
+    <div
+      class="infini-col infini-col-6"
+      style="padding-left:8px;padding-right:8px"
+    >
+      <div>
+        Column
+      </div>
+    </div>
+  </div>
+  <pre>
+    &lt;Row gutter={16}&gt;
+  &lt;Col span={6} /&gt;
+  &lt;Col span={6} /&gt;
+  &lt;Col span={6} /&gt;
+  &lt;Col span={6} /&gt;
+&lt;/Row&gt;
+  </pre>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/responsive.md correctly 1`] = `
+<div
+  class="infini-row"
+>
+  <div
+    class="infini-col infini-col-xs-2 infini-col-sm-4 infini-col-md-6 infini-col-lg-8 infini-col-xl-10"
+  >
+    Col
+  </div>
+  <div
+    class="infini-col infini-col-xs-20 infini-col-sm-16 infini-col-md-12 infini-col-lg-8 infini-col-xl-4"
+  >
+    Col
+  </div>
+  <div
+    class="infini-col infini-col-xs-2 infini-col-sm-4 infini-col-md-6 infini-col-lg-8 infini-col-xl-10"
+  >
+    Col
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/responsive-more.md correctly 1`] = `
+<div
+  class="infini-row"
+>
+  <div
+    class="infini-col infini-col-xs-5 infini-col-xs-offset-1 infini-col-lg-6 infini-col-lg-offset-2"
+  >
+    Col
+  </div>
+  <div
+    class="infini-col infini-col-xs-11 infini-col-xs-offset-1 infini-col-lg-6 infini-col-lg-offset-2"
+  >
+    Col
+  </div>
+  <div
+    class="infini-col infini-col-xs-5 infini-col-xs-offset-1 infini-col-lg-6 infini-col-lg-offset-2"
+  >
+    Col
+  </div>
+</div>
+`;
+
+exports[`renders ./components/grid/demo/sort.md correctly 1`] = `
+<div>
+  <div
+    class="infini-row"
+  >
+    <div
+      class="infini-col infini-col-18 infini-col-push-6"
+    >
+      col-18 col-push-6
+    </div>
+    <div
+      class="infini-col infini-col-6 infini-col-pull-18"
+    >
+      col-6 col-pull-18
+    </div>
+  </div>
+</div>
+`;

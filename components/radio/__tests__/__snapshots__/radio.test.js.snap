@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio should render correctly 1`] = `
+<label
+  class="customized infini-radio-wrapper"
+>
+  <span
+    class="infini-radio"
+  >
+    <input
+      class="infini-radio-input"
+      type="radio"
+    />
+    <span
+      class="infini-radio-inner"
+    />
+  </span>
+  <span>
+    Test
+  </span>
+</label>
+`;
